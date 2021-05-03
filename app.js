@@ -9,6 +9,6 @@ if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
     })
 }
 
-document.getElementById('snap').addEventListener('click', () => {
+document.getElementById('capture').addEventListener('click', () => {
     context.drawImage(video, 0,0,640, 480)
 })
